@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-family: 'Cairo', sans-serif;
+    background-color: #014656;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 12pt;
+}
+
+#menu {
+    height: 80px;
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    box-shadow: 0px 3px 20px #000000;
+    position: absolute;
+    border-bottom: 1px solid #fff;
+
+}
+
+#logo {
+    float: left;
+    line-height: 60px;
+    padding-right: 40px;
+    height: 63px;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.menu-all .menu-item {
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 60px;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 30pt
+}
+
+#hero {
+    background: url(../imgs/hero21.png) no-repeat center center;
+    height: 593px;
+    padding-top: 250px;
+    text-align: center;
+    font-size: 18pt;
+    color: rgb(255, 255, 255);
+}
+
+#copy {
+    background: #014656;
+    height: 60px;
+}
+
+span {
+    color: #F8F7F5;
+    padding-top: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+.ct2 {
+    position: absolute;
+    top: 420px;
+    left: 590px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 58px;
+
+    padding: 10px 60px;
+
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+
+}
+
+.ct2:hover {
+    background-color: rgb(255, 102, 0);
+    color: rgb(255, 255, 255);
+}
+
+.wai {
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+}
+
+h4 {
+    text-align: center;
+}
